@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
+  <!-- Base background color -->
+  <rect width="1000" height="500" fill="#f8f5f2" />
+  
+  <!-- Subtle texture pattern - small dots -->
+  <g fill="#e2e0dd" fill-opacity="0.4">
+    <!-- Generate a grid of small dots -->
+    <g id="dotPattern">
+      <!-- First row of dots -->
+      <circle cx="10" cy="10" r="1" />
+      <circle cx="30" cy="10" r="0.8" />
+      <circle cx="50" cy="10" r="1.2" />
+      <circle cx="70" cy="10" r="0.9" />
+      <circle cx="90" cy="10" r="1.1" />
+      
+      <!-- Second row of dots -->
+      <circle cx="20" cy="30" r="1" />
+      <circle cx="40" cy="30" r="0.7" />
+      <circle cx="60" cy="30" r="1" />
+      <circle cx="80" cy="30" r="0.9" />
+      <circle cx="100" cy="30" r="1.2" />
+      
+      <!-- Third row of dots -->
+      <circle cx="10" cy="50" r="0.8" />
+      <circle cx="30" cy="50" r="1.1" />
+      <circle cx="50" cy="50" r="0.9" />
+      <circle cx="70" cy="50" r="1" />
+      <circle cx="90" cy="50" r="0.8" />
+      
+      <!-- Fourth row of dots -->
+      <circle cx="20" cy="70" r="1.2" />
+      <circle cx="40" cy="70" r="0.9" />
+      <circle cx="60" cy="70" r="1.1" />
+      <circle cx="80" cy="70" r="1" />
+      <circle cx="100" cy="70" r="0.7" />
+      
+      <!-- Fifth row of dots -->
+      <circle cx="10" cy="90" r="1" />
+      <circle cx="30" cy="90" r="0.8" />
+      <circle cx="50" cy="90" r="1" />
+      <circle cx="70" cy="90" r="1.2" />
+      <circle cx="90" cy="90" r="0.9" />
+    </g>
+    
+    <!-- Replicate the pattern across the background -->
+    <use href="#dotPattern" x="0" y="0" />
+    <use href="#dotPattern" x="100" y="0" />
+    <use href="#dotPattern" x="200" y="0" />
+    <use href="#dotPattern" x="300" y="0" />
+    <use href="#dotPattern" x="400" y="0" />
+    <use href="#dotPattern" x="500" y="0" />
+    <use href="#dotPattern" x="600" y="0" />
+    <use href="#dotPattern" x="700" y="0" />
+    <use href="#dotPattern" x="800" y="0" />
+    <use href="#dotPattern" x="900" y="0" />
+    
+    <use href="#dotPattern" x="0" y="100" />
+    <use href="#dotPattern" x="100" y="100" />
+    <use href="#dotPattern" x="200" y="100" />
+    <use href="#dotPattern" x="300" y="100" />
+    <use href="#dotPattern" x="400" y="100" />
+    <use href="#dotPattern" x="500" y="100" />
+    <use href="#dotPattern" x="600" y="100" />
+    <use href="#dotPattern" x="700" y="100" />
+    <use href="#dotPattern" x="800" y="100" />
+    <use href="#dotPattern" x="900" y="100" />
+    
+    <use href="#dotPattern" x="0" y="200" />
+    <use href="#dotPattern" x="100" y="200" />
+    <use href="#dotPattern" x="200" y="200" />
+    <use href="#dotPattern" x="300" y="200" />
+    <use href="#dotPattern" x="400" y="200" />
+    <use href="#dotPattern" x="500" y="200" />
+    <use href="#dotPattern" x="600" y="200" />
+    <use href="#dotPattern" x="700" y="200" />
+    <use href="#dotPattern" x="800" y="200" />
+    <use href="#dotPattern" x="900" y="200" />
+    
+    <use href="#dotPattern" x="0" y="300" />
+    <use href="#dotPattern" x="100" y="300" />
+    <use href="#dotPattern" x="200" y="300" />
+    <use href="#dotPattern" x="300" y="300" />
+    <use href="#dotPattern" x="400" y="300" />
+    <use href="#dotPattern" x="500" y="300" />
+    <use href="#dotPattern" x="600" y="300" />
+    <use href="#dotPattern" x="700" y="300" />
+    <use href="#dotPattern" x="800" y="300" />
+    <use href="#dotPattern" x="900" y="300" />
+    
+    <use href="#dotPattern" x="0" y="400" />
+    <use href="#dotPattern" x="100" y="400" />
+    <use href="#dotPattern" x="200" y="400" />
+    <use href="#dotPattern" x="300" y="400" />
+    <use href="#dotPattern" x="400" y="400" />
+    <use href="#dotPattern" x="500" y="400" />
+    <use href="#dotPattern" x="600" y="400" />
+    <use href="#dotPattern" x="700" y="400" />
+    <use href="#dotPattern" x="800" y="400" />
+    <use href="#dotPattern" x="900" y="400" />
+  </g>
+  
+  <!-- Subtle diagonal lines for added texture -->
+  <g stroke="#e2e0dd" stroke-width="0.5" stroke-opacity="0.15">
+    <line x1="0" y1="0" x2="1000" y2="500" />
+    <line x1="200" y1="0" x2="1000" y2="400" />
+    <line x1="400" y1="0" x2="1000" y2="300" />
+    <line x1="600" y1="0" x2="1000" y2="200" />
+    <line x1="800" y1="0" x2="1000" y2="100" />
+    
+    <line x1="0" y1="100" x2="900" y2="500" />
+    <line x1="0" y1="200" x2="800" y2="500" />
+    <line x1="0" y1="300" x2="700" y2="500" />
+    <line x1="0" y1="400" x2="600" y2="500" />
+  </g>
+</svg>
